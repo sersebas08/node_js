@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background: #1b1e21;
+}
+.header__h1 {
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 0;
+}
+.section__h2 {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.section__p {
+    padding: 1rem;
+    text-align: center;
+
+}
+.divImg__img {
+   width: 100%;
+}
+.divListados {
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.divListados__p {
+    padding: 0.5rem;
+    margin: auto;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.divListados__div {
+    width: 80%;
+    height: auto;
+    list-style: none;
+    padding: 0.7rem;
+    background: #eaecf1;
+    /* margin: .50rem; */
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    box-shadow: 0px 1px 8px -4px black;
+    margin: 2rem auto;
+}
+.divListados__div img {
+    width: 20%;
+    border-radius: 50%;
+    /*margin-top: -5rem;*/
+}
+.divListados__datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+.divListados__nombre {
+    margin: 0;
+    font-weight: 700;
+}
+.divListados__email {
+    margin: 0;
+    font-size: .6rem;
+}
+.divListados__name {
+    margin: auto;
+}
+/*----------------- index -------------*/
+
+
+nav {
+    background: #1b1e21;
+    display: flex;
+    justify-content: center;
+    padding: .8rem;
+}
+.nav__h1  {
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 0;
+
+}
+.nav__img {
+    border-radius: 50%;
+    width: 15%;
+}
+.datos {/*
+    background: url(../img/00001.jpg)no-repeat center 32%;*/
+    display: flex;
+    flex-direction: column;
+}
+.datos__h2 {
+    font-weight: 800;
+    color: black;
+    font-size: 3rem;
+    margin: 2rem auto;
+    padding-left: 2rem;
+    position: absolute;
+}
+.datos__parrafo {
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+.datos__tecnico {
+    padding: 1.5rem;
+    max-width: 1150px;
+    margin: auto;
+    text-align: center;
+    line-height: 2;
+}
+.datos__descripcion {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.datos__descripcion__h3 {
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+/*.datos__descripcion span {
+    background: url("../img/icono-st-1.png") no-repeat;
+}*/
+.datos__descripcion p {
+    display: flex;
+    margin: .6rem;
+    padding: .5rem;
+    /*background: #1b1e21;*/
+    color: #9a9696;
+    border-radius: 5px;
+}
+.formRegistro {
+    background: #d2cecbbf;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 1rem .6rem;
+    border-radius: 10px;
+}
+
+.formRegistro label {
+    font-weight: bold;
+    padding: .5rem .2rem;
+    /*color: #f3ab22;*/
+}
+.formRegistro input {
+    box-shadow: 1px 1px 5px -2px black;
+}
+.formRegistro__boton{
+    margin-top: 2.5rem;
+    width: 100%;
+    box-shadow: 1px 1px 5px -2px green;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.formRegistro .area textarea {
+    resize: none;
+}
+.divConsulta {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.divConsulta__h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+.footer {
+    background: black;
+    color: beige;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.footerDiv__ul li {
+    list-style: none;
+}
+/*----------------- form -------------------*/
+.section_form p {
+    text-align: center;
+}
+.section_form__h2 {
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.3rem .5rem;
+}
+.section_form__p {
+    width: 80%;
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+/*----------------------------- exito ----------------------*/
+
+.section__exito {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem;
+}
+.section__exito h2 {
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+}
+.section__exito p{
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+
+@media (min-width: 401px) and (max-width: 500px){
+
+    .nav__img {
+        border-radius: 50%;
+        width: 15%;
+    }
+    .formRegistro {
+        margin: 1rem auto;
+        max-width: 400px;
+    }
+
+}
+@media (min-width: 501px) and (max-width: 600px){
+
+    .nav__img {
+        border-radius: 50%;
+        width: 12%;
+    }
+    .formRegistro {
+        margin: 1rem auto;
+    }
+}
+@media (min-width: 601px) and (max-width: 700px){
+
+    .nav__img {
+        border-radius: 50%;
+        width: 10%;
+    }
+    .datos__descripcion p {
+        width: 77%;
+        margin: auto;
+    }
+    .divListados__div {
+        width: 45%;
+
+    }
+    .formRegistro {
+        margin: 1rem auto;
+    }
+}
+@media (min-width: 701px) and (max-width: 800px){
+
+    .nav__img {
+        border-radius: 50%;
+        width: 10%;
+    }
+    .datos__descripcion {
+        justify-content: center;
+    }
+    .datos__descripcion p {
+        width: 80%;
+    }
+    .datos__h2 {
+        font-size: 3rem;
+        margin: 4rem 1rem;
+    }
+    .divListados__div {
+        width: 40%;
+
+    }
+    .formRegistro {
+        margin: 1rem auto;
+    }
+}
+@media (min-width: 801px) and (max-width: 900px){
+    .datos__descripcion p {
+        background: #1c7430;
+        justify-content: center;
+    }
+    .nav__img {
+        border-radius: 50%;
+        width: 10%;
+    }
+    .datos__descripcion {
+        justify-content: center;
+    }
+    .datos__h2 {
+        font-size: 4rem;
+        margin: 4rem 1rem;
+    }
+    .divListados__div {
+        width: 30%;
+
+    }
+    .formRegistro {
+        margin: 1rem auto;
+    }
+}
+@media (min-width: 901px) and (max-width: 1200px){
+
+    .nav__img {
+        border-radius: 50%;
+        width: 10%;
+    }
+    .datos__descripcion {
+        justify-content: center;
+    }
+    .datos__h2 {
+        font-size: 5rem;
+        margin: 4rem 1rem;
+    }
+    .divListados__div {
+        width: 30%;
+
+    }
+    .formRegistro {
+        margin: 1rem auto;
+    }
+}
+@media (min-width: 1201px){
+
+    .nav__img {
+        max-width: 1400px;
+        border-radius: 50%;
+        width: 8%;
+    }
+    .datos__descripcion {
+        justify-content: center;
+    }
+    .datos__h2 {
+        font-size: 6rem;
+        margin: 7rem 10rem;
+    }
+    .divListados__div {
+        width: 20%;
+
+    }
+    .formRegistro {
+        margin: 1rem auto;
+    }
+}

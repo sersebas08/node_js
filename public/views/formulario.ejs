@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+    <title> Wildboard :: Contacto </title>
+</head>
+<body>
+
+
+ <!--   <form action="/nuevo" method="post">
+        <div>
+            <label for="name">Nombre</label>
+            <textarea type="text" name="name"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>-->
+    <main>
+
+        <nav class="nav">
+            <h1 class="nav__h1">Sersebas08</h1>
+            <img class="nav__img" src="../img/logo-wild.png" alt="img prueba" >
+        </nav>
+        <section class="section_form">
+            <h2 class="section_form__h2">Formulario de comentarios</h2>
+            <p class="section_form__p">Para dejar tus comentarios debes completar el formulario</p>
+            <form action="/nuevo" class="formRegistro" method="post" id="form-alta">
+                <div  class="form-file">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" required>
+                </div>
+                <div  class="form-file">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-file area">
+                    <label for="name" class="form-label">Consulta</label>
+                    <textarea name="name" id="name" class="form-control" maxlength="100" required></textarea>
+                </div>
+
+                <button class="btn btn-success formRegistro__boton" type="submit">Enviar Consulta</button>
+            </form>
+            <p>Ver comentarios <a href="./comentarios" class="pr-3"> aqui </a></p>
+        </section>
+        <!--<a href="index.html" class="d-flex justify-content-center text-dark text-decoration-none">Volver a Perfil</a>-->
+    </main>
+    <!--<script src="../js/validar.js"></script>-->
+     <footer class="footer">
+         <div class="footerDiv">
+             <ul class="footerDiv__ul">
+                 <li>Carrera: Diseño Web</li>
+                 <li>Institucion: Escuela Davinci</li>
+                 <li>Docente: Brian Lara</li>
+                 <li>Alumno: Servente Sebastian</li>
+             </ul>
+         </div>
+     </footer>
+</body>
+</html>
