@@ -83,8 +83,6 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
-
-}
 .divListados__email a {
     white-space: nowrap;
     text-overflow: ellipsis;
