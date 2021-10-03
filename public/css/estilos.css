@@ -77,8 +77,18 @@
     font-weight: 700;
 }
 .divListados__email {
-    margin: 0;
+    margin: 1rem auto;
     font-size: .6rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+}
+.divListados__email a {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .divListados__name {
     margin: auto;
@@ -342,7 +352,7 @@ nav {
         margin: 4rem 1rem;
     }
     .divListados__div {
-        width: 30%;
+        width: 32%;
 
     }
     .formRegistro {
@@ -364,7 +374,7 @@ nav {
         margin: 7rem 10rem;
     }
     .divListados__div {
-        width: 20%;
+        width: 25%;
 
     }
     .formRegistro {
